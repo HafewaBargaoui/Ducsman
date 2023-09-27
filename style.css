@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    background-repeat: no-repeat;
+}
+
+/** début partie header **/
+
+header {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+h1 {
+    font-family: 'Italianno', cursive;
+    color: #303030;
+    font-size: 20vh;
+}
+
+h2 {
+    font-family: 'Amiri', serif;
+    color: #303030;
+    font-size: 10vh;
+}
+
+h3 {
+    font-family: 'Amiri', serif;
+    color: #303030;
+    font-size: 8vh;
+} 
+
+/** fin partie header **/
+/** début partie navbar **/
+
+.navbar {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 6vh;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+li {
+    list-style: none;
+    font-family: 'Maitree', serif;
+    color: #303030;
+}
+
+li:hover {
+    border: 1px solid white;
+}
+
+/** fin partie navbar **/
+
+/** début partie main **/
+
+.carroussel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    margin :3vh;
+    overflow: hidden;
+}
+
+img {
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.carroussel div {
+    font-family: 'Maitree', serif;
+    color: #303030;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carroussel p {
+    font-size: 2vh;
+}
+
+.presmaison {
+    border-bottom: 1px solid white;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.presentation {
+    text-align: center;
+    color: #ffff;
+    font-family: 'Maitree', serif;
+    font-size: 2.5vh;
+}
+/** fin partie main **/
+
+/** début footer **/
+
+footer {
+    text-align: center;
+    font-family: 'Maitree', serif;
+    font-size: 3vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: #ffff ;
+}
+/** fin footer **/
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    
+    h1 {
+        font-size: 6vh;
+    }
+    
+    h2 {
+        font-size: 3vh;
+    }
+
+    h3 {
+        font-size: 4vh;
+    }
+    
+    /** fin partie header **/
+    /** début partie navbar **/
+    
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 2vh;
+        background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    }
+    
+    li {
+        list-style: none;
+        font-family: 'Maitree', serif;
+    }
+    
+    li:hover {
+        border: 1px solid white;
+    }
+    
+    /** fin partie navbar **/
+    
+    /** début partie main **/
+
+    .carroussel {
+        margin: 1vh;
+        display: flex;
+        border-radius: 10px;
+    }
+    
+    .carroussel div {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 1vh;
+        width: 100%;
+    }
+    .carroussel p {
+        font-size: 2vh;
+        padding-left: 10vh;
+        padding-right: 10vh;
+        text-align: center;
+    }
+
+    .presmaison {
+        border-bottom: 1px solid white;
+        margin-left: 1.5vh;
+        margin-right: 1.5vh;
+        margin-top: 2vh;
+    }
+    
+    .presentation {
+        text-align: center;
+        color: #ffff;
+        font-family: 'Maitree', serif;
+        font-size: 1.5vh;
+    }
+    /** fin partie main **/
+    
+    /** début footer **/
+    
+    footer {
+        text-align: center;
+        font-family: 'Maitree', serif;
+        font-size: 1.5vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        color: #ffff ;
+    }
+    /** fin footer **/
+}
+
+@media screen and (min-width: 2560px) {
+
+    .presmaison {
+        margin-left: 40vh;
+        margin-right: 40vh;
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+    
+}

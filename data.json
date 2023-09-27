@@ -1,0 +1,64 @@
+{
+    "articles": [
+      {
+        "url": "https://i.etsystatic.com/33187430/r/il/f7dd5e/4057082062/il_570xN.4057082062_70y4.jpg",
+        "nom": "Costume en laine",
+        "prix": 199.99,
+        "designation": "Costume élégant en laine pour hommes"
+      },
+      {
+        "url": "https://cdn-1.jjshouse.com/upimg/jjshouse/o600/50/fe/0899e6157e5a68e5dd85f8489e9d50fe.jpg",
+        "nom": "Robe de soirée",
+        "prix": 149.99,
+        "designation": "Robe de soirée longue pour femmes"
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/714klQ9hteL._AC_UY780_.jpg",
+        "nom": "Chemise en coton",
+        "prix": 49.99,
+        "designation": "Chemise décontractée en coton pour hommes"
+      },
+      {
+        "url": "https://www.lespetitesjupesdeprune.com/cdn/shop/products/03_622_1082x1407_crop_center.jpg?v=1668006458",
+        "nom": "Jupe plissée",
+        "prix": 79.99,
+        "designation": "Jupe plissée midi pour femmes"
+      },
+      {
+        "url": "https://www.eveilducorps.fr/wp-content/uploads/2020/12/manteaux-vestes-homme-blazer-caldey-en-tweed-carreau-vert-tendre-boden.jpg",
+        "nom": "Veste en tweed",
+        "prix": 129.99,
+        "designation": "Veste en tweed pour hommes"
+      },
+      {
+        "url": "https://images.asos-media.com/products/selected-homme-pantalon-de-costume-ajuste-a-carreaux-bleu/11984979-4?$n_640w$&wid=513&fit=constrain",
+        "nom": "Pantalon de costume",
+        "prix": 79.99,
+        "designation": "Pantalon de costume ajusté pour hommes"
+      },
+      {
+        "url": "https://www.hircus.fr/4890-hircus_default/xblouse-soie-fluide-atlantique-inga.jpg.pagespeed.ic.cO3gCE1O0Z.jpg",
+        "nom": "Blouse en soie",
+        "prix": 89.99,
+        "designation": "Blouse en soie légère pour femmes"
+      },
+      {
+        "url": "https://media.peterhahn.com/i/peterhahn/106039_CAT_H/erre-le-manteau-3-4-en-laine-vierge-et-alpaga-graphite-chine?$productdetail$",
+        "nom": "Manteau en laine",
+        "prix": 179.99,
+        "designation": "Manteau en laine pour femmes"
+      },
+      {
+        "url": "https://cravate-gentleman.com/cdn/shop/products/He4c46199d7d5477582188b7a9df72b50J_2000x.jpg?v=1662982609",
+        "nom": "Cravate en soie",
+        "prix": 29.99,
+        "designation": "Cravate en soie haut de gamme"
+      },
+      {
+        "url": "https://www.armenak.fr/img/cms/W/eternelle2.jpg",
+        "nom": "Chaussures en cuir",
+        "prix": 119.99,
+        "designation": "Chaussures en cuir pour hommes"
+      }
+    ]
+  }
